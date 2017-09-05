@@ -15,12 +15,12 @@ namespace Simple_DbConnection
 
         public override void Open()
         {
-            Console.WriteLine("Implement OPEN for the ORACLE connection: \"{0}\"", this.ConnectionString);
+            Console.WriteLine("OPEN the ORACLE connection: \"{0}\"", this.ConnectionString);
         }
 
         public override void Close()
         {
-            Console.WriteLine("Implement CLOSE for the ORACLE connection");
+            Console.WriteLine("CLOSE the ORACLE connection");
         }
     }
 }

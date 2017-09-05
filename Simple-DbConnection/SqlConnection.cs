@@ -14,12 +14,12 @@ namespace Simple_DbConnection
 
         public override void Open()
         {
-            Console.WriteLine("Implement the code to OPEN the SQL Connection: \"{0}\"", this.ConnectionString);
+            Console.WriteLine("OPEN the SQL Connection: \"{0}\"", this.ConnectionString);
         }
 
         public override void Close()
         {
-            Console.WriteLine("Implement the code to CLOSE the SQL Connection");
+            Console.WriteLine("CLOSE the SQL Connection");
         }
     }
 }
